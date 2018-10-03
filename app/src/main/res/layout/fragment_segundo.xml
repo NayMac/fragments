@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8dc8ce"
+    tools:context=".segundoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/id_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Sin pex"
+        android:textSize="45sp" />
+
+</FrameLayout>
