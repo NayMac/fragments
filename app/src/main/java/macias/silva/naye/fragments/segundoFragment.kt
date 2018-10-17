@@ -77,6 +77,14 @@ class segundoFragment : Fragment() {
             }
 
         }
+        btnCArgar.setOnClickListener{
+            var url = etUrl.text.toString().trim()
+            if (!url.isEmpty()){
+                url = "https://"+url
+                web_view.loadUrl(url)
+
+            }
+        }
 
         web_view.loadUrl("https://git-scm.com/download/win")
 
