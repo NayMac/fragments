@@ -85,6 +85,7 @@ class segundoFragment : Fragment() {
 
             }
         }
+        //github.com/erickvalles/navigation
 
         web_view.loadUrl("https://git-scm.com/download/win")
 
